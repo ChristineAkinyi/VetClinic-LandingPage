@@ -1,0 +1,363 @@
+.body{
+    font-size: 20px;
+}
+
+#Yourpet {
+  margin-right: 20%;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 10%; */
+  margin-top: 5%;
+}
+
+#vets {
+  color: #fda45f;
+}
+
+#get {
+  color: white;
+  background-color: #1ba0ab;
+  border-radius: 5px;
+  padding: 20px 100px 20px 100px;
+}
+
+.parttwo {
+  display: flex;
+  gap: 20%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.images {
+  width: 30%;
+}
+
+.dent {
+  width: 15%;
+}
+
+#image {
+  width: 18%;
+}
+
+.columnone {
+  display: flex;
+  /* margin-bottom: 10%; */
+  justify-content: space-evenly;
+}
+
+.columntwo {
+  display: flex;
+  gap: 5%;
+  justify-content: space-evenly;
+
+}
+
+.partfour {
+  display: flex;
+  gap: 10%;
+  background-color: #E9FAFC;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#alexan {
+  width: 300px;
+  height: 400px;
+  background-color: #CFE4E7;
+  margin-top: 100px;
+}
+
+.text {
+  white-space: nowrap;
+}
+
+.best{
+    font-size: 45px;
+}
+
+#contact{
+    color: white;
+    background-color: #1BA0AB;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.head{
+    display: flex;
+    /* gap: 10%; */
+    margin-top: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.quotes{
+    width: 7%;
+}
+
+.mum{
+    width: 7%;
+    border-radius: 100px;
+}
+
+.mom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mervol{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.headingtwo{
+    display: flex;
+    /* gap: 10%; */
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#see{
+    margin-bottom: 40%;
+}
+
+#neill{
+    width: 300px;
+    height: 80%;
+    background-color: #F4F0FE;
+}
+#pat{
+    width: 300px;
+    height: 80%;
+    background-color: #DDFBFF;    
+}
+
+#pasc{
+    width: 300px;
+    height: 80%;
+    background-color: #F4F0FE;    
+}
+
+#pascal{
+    margin-left: 7%;
+}
+
+.docs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+}
+
+#subs{
+    color: white;
+    background-color: #1BA0AB;
+    padding: 10px 40px 10px 40px;
+    border-radius: 7px;
+}
+
+.input{
+    padding: 10px 40px 10px 40px;
+    border-radius: 7px;
+}
+
+.footer{
+    display: flex;
+    background-color: #F8FEFF;
+    justify-content: space-evenly;
+}
+
+.foot{
+    list-style: none;
+}
+
+.icons{
+    width: 8%;
+}
+
+.part7{
+   background-color: #E9FAFC;
+   margin-left: 40%;
+   margin-bottom: 50px;
+   margin-top: 60px;
+}
+
+.part1{
+    margin-bottom: 50px;
+    background-color: #E9FAFC;
+}
+
+#lavie{
+    width: 200%;
+}
+
+.vetts{
+    font-size:x-large;
+}
+
+#service{
+    font-size:xx-large;
+}
+
+.navbar{
+    margin-left: 55px;
+    display: flex;
+    gap: 250px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 769px){
+    .navbar{
+        margin-left: 55px;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }  
+
+    .slides {
+        flex-direction: column;
+        justify-content: space-around;
+        /* gap: 10%; */
+        margin-top: 5%;
+      }
+
+      #lavie{
+        width: 290px;
+    }
+
+    .vetts{
+        font-size:  smaller;
+    }
+
+    .partfour {
+        flex-direction: column;
+        gap: 10%;
+        background-color: #E9FAFC;
+        justify-content: space-evenly;
+        margin-top: 50px;
+      }
+
+      .best{
+        font-size: 30px;
+    }
+
+    .mervol{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+
+    .text {
+        white-space: nowrap;
+        font-size: smaller;
+      }
+
+      .part7{
+        background-color: #E9FAFC;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        flex-direction: column;
+        margin-left: 20px;
+     } 
+
+     .footer{
+        flex-direction: column;
+        background-color: #F8FEFF;
+        justify-content: space-evenly;
+    }
+
+    .docs{
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 15%;
+    }
+
+    .input{
+        padding: 10px 25px 10px px;
+        border-radius: 7px;
+    }
+}
+
+/* @media only screen and (min-width:1025px) and (max-width:1370px) {
+     body{
+        font-size: 20px;
+     } 
+     
+     .navbar{
+        margin-left: 55px;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }  
+
+    .slides {
+        flex-direction: column;
+        justify-content: space-around;
+        /* gap: 10%; */
+        /* margin-top: 5%;
+      }
+
+      #lavie{
+        width: 290px;
+    }
+
+    .partfour {
+        flex-direction: column;
+        gap: 10%;
+        background-color: #E9FAFC;
+        justify-content: space-evenly;
+        margin-top: 50px;
+      }
+
+      .best{
+        font-size: 30px;
+    }
+
+    .text {
+        white-space: nowrap;
+        font-size: smaller;
+      }
+
+      .part7{
+        background-color: #E9FAFC;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        flex-direction: column;
+        margin-left: 20px;
+     } 
+
+     .footer{
+        flex-direction: column;
+        background-color: #F8FEFF;
+        justify-content: space-evenly;
+    }
+
+    .docs{
+        gap: 2px;
+        /* justify-content: space-evenly; */
+        
+    /* }
+
+    .input{
+        padding: 10px 25px 10px px;
+        border-radius: 7px;
+    }
+
+    #lavie{
+        width: 250px;
+    } */ 
+
+   
+/* } */ 
+
+
+
+
+
+
+
