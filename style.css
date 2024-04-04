@@ -209,6 +209,11 @@
     margin-top: 10px;
 }
 
+.buttons{
+    display: flex;
+    background-color: white;
+}
+
 @media only screen and (max-width: 769px){
     .navbar{
         margin-left: 55px;
@@ -277,17 +282,18 @@
     }
 
     .input{
-        padding: 10px 25px 10px px;
+        padding: 10px 25px 10px 25px;
         border-radius: 7px;
     }
+
+    #subs{
+        padding: 2px 14px 14px 10px;
+    }
+
 }
 
-/* @media only screen and (min-width:1025px) and (max-width:1370px) {
-     body{
-        font-size: 20px;
-     } 
-     
-     .navbar{
+@media only screen and (max-width: 900px){
+    .navbar{
         margin-left: 55px;
         flex-direction: column;
         gap: 10px;
@@ -298,11 +304,15 @@
         flex-direction: column;
         justify-content: space-around;
         /* gap: 10%; */
-        /* margin-top: 5%;
+        margin-top: 5%;
       }
 
       #lavie{
         width: 290px;
+    }
+
+    .vetts{
+        font-size:  smaller;
     }
 
     .partfour {
@@ -315,6 +325,12 @@
 
       .best{
         font-size: 30px;
+    }
+
+    .mervol{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
     }
 
     .text {
@@ -338,22 +354,103 @@
     }
 
     .docs{
-        gap: 2px;
-        /* justify-content: space-evenly; */
-        
-    /* }
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 15%;
+    }
 
     .input{
-        padding: 10px 25px 10px px;
+        padding: 10px 25px 10px 25px;
         border-radius: 7px;
     }
 
-    #lavie{
-        width: 250px;
-    } */ 
+    #subs{
+        padding: 2px 14px 14px 10px;
+    }
 
-   
-/* } */ 
+}
+
+@media only screen and (max-width: 1370px){
+    .navbar{
+        margin-left: 55px;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }  
+
+    .slides {
+        flex-direction: column;
+        justify-content: space-around;
+        /* gap: 10%; */
+        margin-top: 5%;
+      }
+
+      #lavie{
+        width: 290px;
+    }
+
+    .vetts{
+        font-size:  smaller;
+    }
+
+    .partfour {
+        flex-direction: column;
+        gap: 10%;
+        background-color: #E9FAFC;
+        justify-content: space-evenly;
+        margin-top: 50px;
+      }
+
+      .best{
+        font-size: 30px;
+    }
+
+    .mervol{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+
+    .text {
+        white-space: nowrap;
+        font-size: smaller;
+      }
+
+      .part7{
+        background-color: #E9FAFC;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        flex-direction: column;
+        margin-left: 20px;
+     } 
+
+     .footer{
+        display: flex;
+        background-color: #F8FEFF;
+        justify-content: space-evenly;
+    }
+
+    .docs{
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 15%;
+    }
+
+    .input{
+        padding: 10px 25px 10px 25px;
+        border-radius: 7px;
+    }
+
+    #subs{
+        padding: 2px 14px 14px 10px;
+    }
+
+    .icons{
+        width: 19px;
+    }
+}
+
 
 
 
